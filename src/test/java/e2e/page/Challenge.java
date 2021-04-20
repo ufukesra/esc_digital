@@ -77,6 +77,8 @@ public class Challenge {
 
     public void inputNameAndClickSubmit(){
        submitChallenges.get(3).sendKeys(ConfigurationReader.get("name"));
+       BrowserUtils.scrollToElement(submitButton);
+
        BrowserUtils.waitFor(2);
        submitButton.click();
        BrowserUtils.waitFor(2);
