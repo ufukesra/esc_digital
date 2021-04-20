@@ -28,19 +28,19 @@ I have added scenario names, before and after methods and also implicity wait an
 Cukes Runner class: This class for running our test by cucumber options which contains 
 feature file pathway and step definitions pathway, dryRun.
 
-Step Definitions: EventsStepdef class: This class for running our scenario and steps from feature file. I also
-created an Wales class object in order to call instance methods from class.
+Step Definitions: ChallengeStepdef class: This class for running our scenario and steps from feature file. I also
+created an Challenge class object in order to call instance methods from class.
 
-Wales class: I have created my most of the test methods based on my test steps.
+Challenge class: I have created my most of the test methods based on my test steps.
 
-I have also created BrowserUtils class to be able call useful static methods which is in the utillities package.
+I have also created BrowserUtils class to be able call useful static methods which is in the utilities package.
 
 
 
--I have created 2 different Java classes that you can Find Same test but different way.
+-I have created 2 different Java classes that you can Find Same testin 2 different ways.
 
 1- ArrayChallenge class which is in the runInMainMethod packege. You can see all the test in same class 
-and run with main method
+and run test with main method.
 
-2-I habe also created the test based on BDD framework by using java, selenium and cucumber. You can see my scenario 
+2-I have also created the test based on BDD framework by using java, selenium and cucumber. You can see my scenario 
 in ecs.feature and run the test steps in ChallengeStepDef by using methods from Challenge class.
